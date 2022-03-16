@@ -1,0 +1,107 @@
+.hero__inner {
+  padding-top: 30px;
+}
+.hero__line {
+  display: inline-block;
+  width: 300px;
+  height: 1px;
+  margin-bottom: 5px;
+  background-color: rgb(179, 170, 170);
+}
+
+.hero__today {
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 18px;
+  color: rgb(179, 170, 170);
+}
+
+.hero__time-1 {
+  display: inline-block;
+  margin-top: 25px;
+  font-size: 20px;
+  color: rgb(144, 143, 143);
+}
+
+.hero__message-1 {
+  position: relative;
+  width: 550px;
+  margin: 0;
+  margin-bottom: 25px;
+  padding: 10px;
+  font-size: 24px;
+  background-color: rgb(131, 134, 163);
+  border-radius: 10px;
+}
+
+.hero__message-1::before {
+  display: inline-block;
+  position: absolute;
+  left: -14px;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid rgb(131, 134, 163);
+  content: " ";
+}
+
+.hero__time-2 {
+  margin-left: 750px;
+  font-size: 20px;
+  color: rgb(144, 143, 143);
+}
+
+.hero__message-2 {
+  position: relative;
+  width: 550px;
+  margin: 0;
+  margin-left: 250px;
+  margin-bottom: 25px;
+  padding: 10px;
+  font-size: 24px;
+  background-color: rgb(179, 174, 129);
+  border-radius: 10px;
+}
+
+.hero__message-2::after {
+  display: inline-block;
+  position: absolute;
+  right: -14px;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid rgb(179, 174, 129);
+  content: " ";
+}
+
+.hero__time-3 {
+  font-size: 20px;
+  color: rgb(144, 143, 143);
+}
+
+.hero__message-3 {
+  position: relative;
+  width: 150px;
+  margin: 0;
+  margin-bottom: 25px;
+  padding: 10px;
+  font-size: 24px;
+  background-color: rgb(131, 134, 163);
+  border-radius: 10px;
+}
+
+.hero__message-4 {
+  position: relative;
+  width: 380px;
+  margin: 0;
+  margin-left: 425px;
+  margin-bottom: 25px;
+  padding: 10px;
+  font-size: 24px;
+  background-color: rgb(231, 127, 118);
+  border-radius: 10px;
+}
