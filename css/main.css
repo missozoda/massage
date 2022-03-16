@@ -469,6 +469,7 @@ img {
   position: relative;
   width: 550px;
   margin: 0;
+  margin-left: 15px;
   margin-bottom: 25px;
   padding: 10px;
   font-size: 24px;
@@ -490,7 +491,7 @@ img {
 }
 
 .hero__time-2 {
-  margin-left: 750px;
+  margin-left: 640px;
   font-size: 20px;
   color: #908f8f;
 }
@@ -499,7 +500,7 @@ img {
   position: relative;
   width: 550px;
   margin: 0;
-  margin-left: 250px;
+  margin-left: 135px;
   margin-bottom: 25px;
   padding: 10px;
   font-size: 24px;
@@ -529,6 +530,7 @@ img {
   position: relative;
   width: 150px;
   margin: 0;
+  margin-left: 15px;
   margin-bottom: 25px;
   padding: 10px;
   font-size: 24px;
@@ -536,11 +538,24 @@ img {
   border-radius: 10px;
 }
 
+.hero__message-3::before {
+  display: inline-block;
+  position: absolute;
+  left: -14px;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid #8386a3;
+  content: " ";
+}
+
 .hero__message-4 {
   position: relative;
   width: 380px;
   margin: 0;
-  margin-left: 425px;
+  margin-left: 320px;
   margin-bottom: 25px;
   padding: 10px;
   font-size: 24px;
@@ -549,20 +564,21 @@ img {
 }
 
 .footer__form {
-  width: 810px;
   padding-top: 20px;
   padding-bottom: 20px;
   border-top: 2px solid #b3aaaa;
 }
 
 .footer__input {
-  padding-right: 430px;
+  padding: 5px;
+  padding-right: 315px;
   font-size: 24px;
   background-color: transparent;
   border: none;
 }
 
 .footer__btn {
+  cursor: pointer;
   font-size: 24px;
   font-weight: bold;
   color: #5250cc;
