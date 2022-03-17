@@ -417,6 +417,7 @@ img {
 .header__heading {
   margin: 0;
   font-size: 32px;
+  font-weight: bold;
   color: white;
 }
 
@@ -437,6 +438,8 @@ img {
   color: white;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
+  background-color: transparent;
+  border: none;
 }
 
 .hero__inner {

@@ -13,6 +13,7 @@
 .header__heading {
   margin: 0;
   font-size: 32px;
+  font-weight: bold;
   color: rgb(255, 255, 255);
 }
 
@@ -32,4 +33,6 @@
   font-weight: 300;
   color: rgb(255, 255, 255);
   transform: rotate(45deg);
+  background-color: transparent;
+  border: none;
 }
